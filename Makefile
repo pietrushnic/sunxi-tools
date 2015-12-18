@@ -20,6 +20,7 @@ CC = gcc
 CFLAGS = -g -O0 -Wall -Wextra
 CFLAGS += -std=c99 -D_POSIX_C_SOURCE=200112L
 CFLAGS += -Iinclude/
+CFLAGS += -Iinclude/libusb-1.0
 
 # Tools useful on host and target
 TOOLS = sunxi-fexc sunxi-bootinfo sunxi-fel sunxi-nand-part
